@@ -1,0 +1,100 @@
+body{
+	height: 500px;
+	background: url('image3.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color:white;
+    text-align: center;
+}
+.currency{
+	height: 1000px;
+	background: url('currency1.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color:white;
+    text-align: center;
+}
+.weather{
+	height: 1000px;
+	background: url('weather.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color:white;
+    text-align: center;
+}
+.imdb{
+	height:1500px;
+	background: url('movie3.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color:#F3CE00;
+    text-align: center;
+    
+}
+    .navbar1 a  {
+    color: #F3CE00;
+    font-size: 20px;
+    opacity: 2;
+}
+
+}
+.relative{
+	color: white;
+
+}
+
+*{
+	box-sizing:border-box;
+}
+link{
+	display:none;
+}
+html{
+	font-family:sans-serif;
+}
+:before{
+	box-sizing:border-box;
+}
+:after{
+	box-sizing:border-box;
+}
+/*.demo{
+	display:block;
+}*/
+#mySelectFrom:{
+	position:relative;
+}
+.glyphicon{
+	position: absolute;
+    right: 0px;
+    padding: 60px 10px;
+    pointer-events: none;
+    font-size: 55px;
+}
+/*.bgimage {
+background-image: url(image1.jpg);
+background-size: 100%;
+}
+.bgimage-inside {
+padding-top: 37.36%; /* this is actually (426/1140)*100 */
+.page-description{
+color: #fcdc28;
+}
+.navbar a {
+    color: white;
+    font-size: 18px;
+}
+.dl-horizontal{
+	font-size:15px; 
+	
+
+}
+

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html ng-app='myApp'>
+  <head class='header fixed clearfix nav nav-fixed top'> 
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    
+    <div class='headerx'>
+    <title>My Application</title>
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href='css/bootstrap.min.css' rel='stylesheet'>
+    <link href="css/bootstrap-theme.min.css" rel="stylesheet" media="screen">
+
+
+    <!--link href="css/my-styles.css" rel="stylesheet" media="screen"-->
+    
+    <link href="justified-nav.css" rel="stylesheet">
+      
+  
+
+  <body>
+    
+      <section id='home' ng-controller='TabController as tabs'>
+     
+    <div class="container">
+      <div class="row">
+  
+      <div class="masthead">
+
+        <h3 class="text-muted"></h3><br>
+        <nav>
+          <div class='relative'>
+          <ul class="navbar nav-justified">
+
+            <li class="{active:tabs.selected(home.html)}"><a href ng-click='tabs.selectTab(home.html)'>Home</a></li>
+            <li class="{active:tabs.selected(weather-app.html)}"><a href ng-click='tabs.selectTab(weather-app.html)'>Weather</a></li>
+            <li class="{active:tabs.selected(3)}"><a href ng-click='tabs.selectTab(3)'>Currency Converter</a></li>
+            <li class="{active:tabs.selected(4)}"><a href ng-click='tabs.selectTab(4)'>IMDb</a></li>
+            <li class="{active:tabs.selected(5)}"><a href ng-click='tabs.selectTab(5)'>Stocks</a></li>
+            <li class="{active:tabs.selected(6)}"><a href ng-click='tabs.selectTab(6)'>DayWatch</a></li>
+          </ul>{{tab}}
+          </div>
+        </nav>
+      </div>
+    </div>
+    </div>
+  </div>
+ </div>
+  </div>
+    </div>
+  </div>
+  
+  </section>
+</head><br><br><br>
+      <!-- Jumbotron -->
+
+      <div class="row-fluid" ng-controller="AppController as app">
+      <h1 class="pull-center"><strong>{{app.helloMessage}}</strong></h1>
+      <p class="lead pull-center" id='demo'>A scrolling one page example layout</p>
+  </div>
+    <div class='tabs' ng-show='tabs.selected(1)'></div>
+      <!--<div class='container '>
+      <div class="jumbotron text-center">
+        <h2>Welcome To My Page</h2><br>
+        <p id ='demo'></p>
+        <p class="lead"> Hello Welcome to my bootstrap</p>
+       
+      </div>
+    </div>-->
+   
+    </div>
+      
+   
+    </div><br>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+   <script src="js/bootstrap.min.js"></script>
+   <script src="js/angular.js"></script>
+
+    <script src='myapp.js' ></script>
+    <script src='myAngularApp.js' ></script>
+ 
+   
+  </body>
+</html>

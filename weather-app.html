@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head class='header fixed clearfix nav nav-fixed top'> 
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+   
+<div class='headerx'>
+    <title>My Application</title>
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="justified-nav.css" rel="stylesheet">
+ 
+  <body class='weather'>
+    
+    <section id='home'>
+    <div class="container">
+      <div class="masthead" style='width:auto'>
+        <h3 class="text-muted"></h3>
+        <nav>
+          <div class='relative'>
+          <ul class="navbar nav-justified">
+            <li class="active"><a href="home.html">Home</a></li>
+            <li><a class='pagescroll' href="weather.html">Weather</a></li>
+            <li><a class ='pagescroll' href="myapp.html">Currency Converter</a></li>
+            <li><a href="imdb.html">IMDB</a></li>
+            <li><a href="#Stocks">Stocks</a></li>
+            <li><a href="#DayWatch">DayWatch</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    </div>
+  </div>
+  </section>
+</head>
+      <!-- Jumbotron -->
+      <div class="row-fluid">
+      <h1 class="pull-center"><strong>Weather</strong></h1>
+      <p class="lead pull-center" id='demo'>A scrolling one page example layout</p>
+  
+         <div class="col-md-4 col-md-offset-4" >
+
+ <div class="input-group">
+        <input type="text"
+               class="form-control" 
+               placeholder="Enter Cityname" id='cityname'/>
+      <span class="input-group-btn">
+        <button type="button" class="btn btn-default" id='enterID' disabled="disabled">Search</button>
+      </span>
+    </div><!-- /input-group -->
+      
+    </div>
+   
+    </div>
+      
+   </div>
+    </div><br>
+    <div class='container' id="weatherDiv">
+      <div class='right-add'>
+       <div class="col-md-4 col-md-offset-4" ><br><br>
+    
+                <dl class="dl-horizontal">
+                <dt>City</dt>
+                <dd id="nameId"></dd><br>
+                <dt>Sky</dt>
+                <dd id="skyId">
+                </dd>
+                <img id="weatherIcon"></img>
+
+                <br>
+                <dt>Temparture</dt>
+                <dd id="tempId"></dd><br>
+                <dt>Humidity</dt>
+                <dd id="humidityId"></dd><br>
+                <dt>Pressure</dt>
+                <dd id="pressureId"></dd><br>
+                <dt>Max_Temperature</dt>
+                <dd id="maxtempId"></dd><br>
+                <dt>Min_Temperature</dt>
+                <dd id="mintempId"></dd><br>
+                <dt>Wind Speed</dt>
+                <dd id="speedId"></dd><br>
+                <dt>SunRise</dt>
+                <dd id="sunriseId"></dd><br>
+                <dt>SunSet</dt>
+                <dd id="sunsetId"></dd>
+              </dl>
+    </div>
+</div>
+      </div>
+    
+
+
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src='weather.js'></script>
+ 
+   
+  </body>
+</html>
